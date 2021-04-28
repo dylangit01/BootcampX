@@ -7,8 +7,6 @@ const pool = new Pool({
   database: 'bootcampx',
 });
 
-
-
 const queryString = `
 SELECT DISTINCT teachers.name teacher, cohorts.name cohort
 FROM teachers
